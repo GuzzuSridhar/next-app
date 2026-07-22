@@ -1,4 +1,5 @@
 import Hello from "@/components/Hello";
+import LocalTime from "@/components/LocalTime";
 import Navigate from "@/components/Navigate";
 import React from "react";
 
@@ -8,6 +9,7 @@ function page() {
       Welcome to Next
       <Hello />
       <Navigate />
+      <LocalTime />
     </div>
   );
 }
