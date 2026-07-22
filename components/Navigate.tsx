@@ -5,28 +5,34 @@ function Navigate() {
   const router = useRouter();
   return (
     <>
-      <button
-        className="bg-blue-500 text-white px-4 py-2 rounded"
-        onClick={() => router.push("/about")}
-      >
-        Go to About
-      </button>
-      <br />
-      <button
-        className="bg-blue-500 text-white px-4 py-2 rounded"
-        onClick={() => router.push("/time")}
-      >
-        Show server time
-      </button>
+      <table>
+        <td>
+          <button
+            className="bg-blue-500 text-white px-4 py-2 rounded"
+            onClick={() => router.push("/about")}
+          >
+            About
+          </button>
+        </td>
 
-      <br />
+        <td>
+          <button
+            className="bg-blue-500 text-white px-4 py-2 rounded"
+            onClick={() => router.push("/time")}
+          >
+            Server time
+          </button>
+        </td>
 
-      <button
-        className="bg-blue-500 text-white px-4 py-2 rounded"
-        onClick={() => router.push("/locloaltime")}
-      >
-        Show Local Time
-      </button>
+        <td>
+          <button
+            className="bg-blue-500 text-white px-4 py-2 rounded"
+            onClick={() => router.push("/locloaltime")}
+          >
+            Local Time
+          </button>
+        </td>
+      </table>
     </>
   );
 }
