@@ -1,5 +1,4 @@
 import LocalTime from "@/components/LocalTime";
-import React from "react";
 
 function page() {
   return (

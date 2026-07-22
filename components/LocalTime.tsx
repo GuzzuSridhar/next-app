@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+
 const localTime = new Date().toLocaleTimeString();
 
 function LocalTime() {
